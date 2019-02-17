@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Form</title>
+</head>
+<body>
+    <form action="/VoterBallot/Results" method="POST">
+        <fieldset>
+            <legend>Programming Languages => Client-Side</legend>
+            <input type="radio" id="Csharp" name="plangCS" value="C#">
+            <label for="Csharp">C#</label><br />
+            <input type="radio" id="Java" name="plangCS" value="Java">
+            <label for="Java">Java</label><br />
+            <input type="radio" id="JavaScript" name="plangCS" value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br />
+            <input type="radio" id="Python" name="plangCS" value="Python">
+            <label for="Python">Python</label><br />
+            <input type="radio" id="Ruby" name="plangCS" value="Ruby">
+            <label for="Ruby">Ruby</label><br />
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+            <legend>Programming Languages => Server-Side</legend>
+            <input type="radio" id="PHP" name="plangSS" value="PHP">
+            <label for="PHP">PHP</label><br />
+            <input type="radio" id="Java" name="plangSS" value="Java">
+            <label for="Java">Java</label><br />
+            <input type="radio" id="NodeJS" name="plangSS" value="Node JS">
+            <label for="NodeJS">Node JS</label><br />
+            <input type="radio" id="Csharp" name="plangSS" value="C#">
+            <label for="Csharp">C#</label><br />
+            <input type="radio" id="Ruby" name="plangSS" value="Ruby">
+            <label for="Ruby">Ruby on Rails</label><br />
+        </fieldset>
+        <br />
+        <input type="submit" value="Vote">
+    </form>
+</body>
+</html>
